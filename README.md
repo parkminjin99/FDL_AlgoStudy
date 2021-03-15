@@ -6,7 +6,12 @@
 
 [BAEKJOON](https://www.acmicpc.net/)
 
-[Programmers](https://programmers.co.kr/learn/challenges?tab=all_challenges)
+[Codeground](https://www.codeground.org/)
+
+## :cloud: 진행방식
+- 매주 3문제씩 풀이
+- 
+
 
 ### :rainbow: Contributors
 | [박민진](https://github.com/parkminjin99) | [인재휘](https://github.com/JaeHuiIn) | [최장혁](https://github.com/CryptoPizza0813) |
@@ -19,6 +24,6 @@
 | ---- | ------------- | ------------------------------------------------------------ |
 | 3/15 | 그리디   | [백준 11047 - 동전 0](https://www.acmicpc.net/problem/11047) |
 |  | 그리디   | [백준 2875 - 대회 or 인턴](https://www.acmicpc.net/problem/2875) |
-|  | 그리디   | [백준 10610 - 30](https://www.acmicpc.net/problem/10610) |
+|  | 그리디   | [SCPC 6회 1차예선 1번 - 다이어트](https://www.codeground.org/practice/practiceProblemViewNew) |
 
 ### 목표💡 
