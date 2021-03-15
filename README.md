@@ -8,7 +8,7 @@
 
 [Codeground](https://www.codeground.org/)
 
-### :cloud: 진행방식
+### 🐥 진행방식
 - 매주 1-2문제씩 풀이
 - 각자 폴더 생성 후 업로드
 
