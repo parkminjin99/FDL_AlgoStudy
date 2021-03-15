@@ -12,3 +12,6 @@
 | [박민진](https://github.com/parkminjin99) | [인재휘](https://github.com/JaeHuiIn) | [최장혁](https://github.com/CryptoPizza0813) |
 |:-------------------:|:-------------------:|:-------------------:|
 |   **[전창열](https://github.com/africanssong)**   | **[오진석](https://github.com/africanssong)** | **** |
+
+### 목표💡
+ - [SCPC 뿌시기]
