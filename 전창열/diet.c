@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int compare(void* first, void* second)  // ¿À¸§Â÷¼ø qsort¸¦ À§ÇÑ ºñ±³ÇÔ¼ö ÀÛ¼º
+int compare(void* first, void* second)  // ì˜¤ë¦„ì°¨ìˆœ qsortë¥¼ ìœ„í•œ ë¹„êµí•¨ìˆ˜ ìž‘ì„±
 {
 	if (*(int *)first > *(int *)second)
 		return 1;
@@ -16,31 +16,31 @@ int main(void)
 	int T, test_case;
 	setbuf(stdout, NULL);
 
-	scanf("%d", &T);    //T(test case Á¾·ù) ÀÔ·Â
+	scanf("%d", &T);    //T(test case ì¢…ë¥˜) ìž…ë ¥
 	
 	for (test_case = 0; test_case < T; test_case++)
 	{
-		int N, K;   //N: ¸Þ´º¼ö, K: ³¯Â¥¼ö
+		int N, K;   //N: ë©”ë‰´ìˆ˜, K: ë‚ ì§œìˆ˜
 		int temp;
 		int Answer=0;
 
-		int A[200001], B[200001];   // °¢ ¸Þ´ºº° Ä®·Î¸®ÀúÀå(A,B½Ä´ç)
+		int A[200001], B[200001];   // ê° ë©”ë‰´ë³„ ì¹¼ë¡œë¦¬ì €ìž¥(A,Bì‹ë‹¹)
 		
-		scanf("%d %d", &N, &K);         //N,K ÀÔ·Â
+		scanf("%d %d", &N, &K);         //N,K ìž…ë ¥
 		for (int i = 0; i < N; i++ )
 			scanf("%d", &A[i]);
 		
-		qsort(A, N, sizeof(int), compare);  //A¿À¸§Â÷¼øÁ¤·Ä
+		qsort(A, N, sizeof(int), compare);  //A ì˜¤ë¦„ì°¨ìˆœì •ë ¬
 
 		for (int i = 0; i < N; i++)
 			scanf("%d", &B[i]);
 		
-		qsort(B, N, sizeof(int), compare); //B¿À¸§Â÷¼øÁ¤·Ä
+		qsort(B, N, sizeof(int), compare); //B ì˜¤ë¦„ì°¨ìˆœì •ë ¬
 
 		for (int i = 0; i < K; i++)
 		{
-			temp = A[i] + B[K - 1 - i];   //A³·Àº°ª, B³ôÀº°ª ¼ø¼­·Î ¸ÅÄª
-			Answer = Answer < temp ? temp : Answer;     // ÇÕÀÌ ´õ Å«°æ¿ì answer¸¦ °»½Å
+			temp = A[i] + B[K - 1 - i];   //Aë‚®ì€ê°’, Bë†’ì€ê°’ ìˆœì„œë¡œ ë§¤ì¹­
+			Answer = Answer < temp ? temp : Answer;     // í•©ì´ ë” í°ê²½ìš° answerë¥¼ ê°±ì‹ 
 		}
 
 		printf("Case #%d\n", test_case + 1);
