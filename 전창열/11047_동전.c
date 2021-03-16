@@ -2,7 +2,7 @@
 
 int main()
 {
-	int N, K, count, R;	//주어진값
+	int N, K, count, R;	//주어진 값
 	int N_won[11] = { 0, };	//동전은 최대 10개
 	scanf("%d", &N);
 	scanf("%d", &K);
