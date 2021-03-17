@@ -11,6 +11,7 @@
 ### 🐥 진행방식 🐥
 - 매주 1-2문제씩 풀이
 - 각자 폴더 생성 후 업로드
+- 작성한 코드에 주석 달기 
 
 ### :rainbow: Contributors
 | [박민진](https://github.com/parkminjin99) | [인재휘](https://github.com/JaeHuiIn) | [최장혁](https://github.com/CryptoPizza0813) |
