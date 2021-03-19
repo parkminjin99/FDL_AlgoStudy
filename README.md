@@ -12,7 +12,7 @@
 - 매주 1-2문제씩 풀이
 - 각자 폴더 생성 후 업로드
 - 작성한 코드에 주석 달기 
-- 문제유형(DP, 그리디... 등)을 숙지 후 문제 풀기 -> 그렇지 않을 경우 문제 푸는 시간이 많이 소요될 수 있음 :exclamation:
+- 문제유형(DP, 그리디... 등)을 숙지 후 문제 푸는 것을 권장:exclamation:
 
 ### :rainbow: Contributors
 | [박민진](https://github.com/parkminjin99) | [인재휘](https://github.com/JaeHuiIn) | [최장혁](https://github.com/CryptoPizza0813) |
