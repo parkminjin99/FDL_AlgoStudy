@@ -2,7 +2,7 @@
 
 int main()
 {
-    int N, K, i, a[11];
+    int N, K, i, a[11]; //N : 동전 종류, K : 가치의 합 , a[] 동전의 가치 배열
     int j = 0;
     scanf("%d %d", &N, &K);
     
