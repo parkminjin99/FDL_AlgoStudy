@@ -32,5 +32,5 @@ int main()
 	}
 	printf("%d", M);
 	return 0;
-
+ 
 }
