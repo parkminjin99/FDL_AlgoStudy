@@ -3,9 +3,9 @@
 int main()
 {
 	int N, M, K, tmp;	//주어진 값. (tmp가 인턴으로 갈 인원)
-	scanf_s("%d", &N);	
-	scanf_s("%d", &M);
-	scanf_s("%d", &K);
+	scanf("%d", &N);	
+	scanf("%d", &M);
+	scanf("%d", &K);
 // 결과적으로 (조의수)= (남학생 수)인것을 이용
 	tmp = 0;
 	if (N > 2 * M)		//여학생이 남는경우
