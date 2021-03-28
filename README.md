@@ -28,7 +28,7 @@
 | 3/22 - 3/28 | DP | [백준 11055 - 가장 큰 증가 부분 수열](https://www.acmicpc.net/problem/11055) | |
 |  | DP   | [백준 11054 - 가장 긴 바이토닉 부분 수열](https://www.acmicpc.net/problem/11054) | |
 | 3/29 - 4/4 | DP   | [백준 2225 - 합분해](https://www.acmicpc.net/problem/2225) | |
-|  | DP   | [백준 1463 - 1로 만들기(https://www.acmicpc.net/problem/1463)] | |
+|  | DP   | [백준 1463 - 1로 만들기](https://www.acmicpc.net/problem/1463) | |
 
 
 
