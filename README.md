@@ -29,7 +29,8 @@
 |  | DP   | [백준 11054 - 가장 긴 바이토닉 부분 수열](https://www.acmicpc.net/problem/11054) | |
 | 3/29 - 4/4 | DP   | [백준 1463 - 1로 만들기](https://www.acmicpc.net/problem/1463) | |
 | 4/5 ~ 4/11 | DP   | [백준 2225 - 합분해](https://www.acmicpc.net/problem/2225) | |
-
+| 4/26 ~ 5/2 | 그래프   | [백준 1260 - DFS와 BFS](https://www.acmicpc.net/problem/1260) | |
+| | 그래프   | [백준 11724 - 연결 요소의 개수](https://www.acmicpc.net/problem/11724) | |
 
 
 ### 💡목표💡 
