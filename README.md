@@ -31,6 +31,8 @@
 | 4/5 ~ 4/11 | DP   | [백준 2225 - 합분해](https://www.acmicpc.net/problem/2225) | |
 | 4/26 ~ 5/2 | 그래프   | [백준 1260 - DFS와 BFS](https://www.acmicpc.net/problem/1260) | |
 | | 그래프   | [백준 11724 - 연결 요소의 개수](https://www.acmicpc.net/problem/11724) | |
+| 5/3 ~ 5/9 | 그래프   | [백준 10451 - 순열 사이클](https://www.acmicpc.net/problem/10451) | |
+| | 그래프   | [백준 1707 - 이분 그래프](https://www.acmicpc.net/problem/1707) | |
 
 
 ### 💡목표💡 
