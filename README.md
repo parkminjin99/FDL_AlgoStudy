@@ -15,7 +15,7 @@
 - 문제유형(DP, 그리디... 등)을 숙지 후 문제 푸는 것을 권장:exclamation:
 
 ### :rainbow: Contributors
-| [박민진](https://github.com/parkminjin99) | [인재휘](https://github.com/JaeHuiIn) | [최장혁](https://github.com/CryptoPizza0813) |[이재원](https://github.com/jewonjewon) |
+| [박민진](https://github.com/parkminjin99) | [인재휘](https://github.com/JaeHuiIn) | [최장혁](https://github.com/CryptoPizza0813) |[이제원](https://github.com/jewonjewon) |
 |:-------------------:|:-------------------:|:-------------------:|:-------------------:|
 |   **[전창열](https://github.com/africanssong)**   | **[오진석](https://github.com/jinseok3121)** | **[김동찬](https://github.com/FDL-dc)** |
 
