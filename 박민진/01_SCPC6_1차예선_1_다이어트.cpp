@@ -21,11 +21,11 @@ int main(int argc, char** argv)
             cin >> A[i];
         for (int i = 0; i < N; i++)
             cin >> B[i];
-        sort(A,A+N); // ¿À¸§Â÷¼ø Á¤·Ä
-        sort(B,B+N,comp); // ³»¸²Â÷¼ø Á¤·Ä
-        // ¿À¸§Â÷¼ø, ³»¸²Â÷¼ø Á¤·ÄÀ» ÇØ¼­ ÃÖ´ë Ä®·Î¸®¸¦ ¼·ÃëÇÑ ³¯ÀÇ Ä®·Î¸® ¾çÀ» ÃÖ¼ÒÈ­
+        sort(A,A+N); // ì˜¤ë¦„ì°¨ìˆœ ì •ë ¬
+        sort(B,B+N,comp); // ë‚´ë¦¼ì°¨ìˆœ ì •ë ¬
+        // ì˜¤ë¦„ì°¨ìˆœ, ë‚´ë¦¼ì°¨ìˆœ ì •ë ¬ì„ í•´ì„œ ìµœëŒ€ ì¹¼ë¡œë¦¬ë¥¼ ì„­ì·¨í•œ ë‚ ì˜ ì¹¼ë¡œë¦¬ ì–‘ì„ ìµœì†Œí™”
         for (int i = 0; i < K; i++) 
-            Answer = max(Answer, A[i] + B[i+N-K]); // ÃÖ´ë Ä®·Î¸®¸¦ ¼·ÃëÇÑ ³¯À» ±¸ÇÏ±â
+            Answer = max(Answer, A[i] + B[i+N-K]); // ìµœëŒ€ ì¹¼ë¡œë¦¬ë¥¼ ì„­ì·¨í•œ ë‚ ì„ êµ¬í•˜ê¸°
         
         cout << "Case #" << test_case+1 << endl;
         cout << Answer << endl;
