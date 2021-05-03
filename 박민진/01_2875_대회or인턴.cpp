@@ -6,9 +6,9 @@ int main()
 {
     int N,M,K, ans,r;
     cin >> N >> M >> K;
-    ans = min(N/2,M); // ÃÖ´ë·Î »ý¼ºµÉ ¼ö ÀÖ´Â ÆÀÀÇ °³¼ö 
+    ans = min(N/2,M); // ìµœëŒ€ë¡œ ìƒì„±ë  ìˆ˜ ìžˆëŠ” íŒ€ì˜ ê°œìˆ˜ 
     int i;
-    for (i = ans; i >= 0; i--) // ÆÀÀÇ °³¼ö¸¦ ÁÙÀÌ¸é¼­ K¸íÀÌ ³²´ÂÁö È®ÀÎ
+    for (i = ans; i >= 0; i--) // íŒ€ì˜ ê°œìˆ˜ë¥¼ ì¤„ì´ë©´ì„œ Këª…ì´ ë‚¨ëŠ”ì§€ í™•ì¸
         if(K <= ((N-i*2)+(M-i))) 
             break;
     cout << i << '\n';
