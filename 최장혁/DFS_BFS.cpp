@@ -7,6 +7,7 @@
 using namespace std;
 
 int check[1001] = {0,};
+int check2[1001] = {0,};
 int bridge[1001][1001] = {0,};
 
 int main(){
@@ -61,14 +62,18 @@ int main(){
     }
     cout << endl;
 
+    if(s.empty() != true)
+        printf("stack error\n");
+
     memset(check, 0, sizeof(check));    // check 배열을 모두 0으로 초기화
     
 
+    V = real_V; // V를 다시 처음 탐색 노드 값으로 초기화
     // Print BFS
     queue<int> q;
-    q.push(real_V);
-    check[real_V] = 1;
-    cout << real_V << " ";
+    q.push(V);
+    check[V] = 1;
+    cout << V << " ";
 
     exit_num = 0;
     while(1) {
@@ -79,14 +84,23 @@ int main(){
                 cout << i << " ";
             }
 
-            if(i == N)  // 큐의 맨 앞 원소는 갈 수 있는 모든 노드를 방문했음
+            if(i == N){  // 큐의 맨 앞 원소는 갈 수 있는 모든 노드를 방문했음
+                // printf("\ndelete %d in queue\n", q.front());
                 q.pop();    // 큐에서 제거
+            }
         }
 
-        if(q.size() == 1)
+        if(q.size() == 0) {
+            // printf("\n!!\n\n!!\n", q.front());
             break;
+        }
     }
     cout << endl;
+
+    if(q.empty() != true)
+        printf("queue error\n");
+
+
 
     return 0;
 }
